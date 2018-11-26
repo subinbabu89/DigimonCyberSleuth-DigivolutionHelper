@@ -2,8 +2,14 @@ package io.github.subinbabu89;
 
 import java.util.*;
 
+/**
+ * Util class to handle the path calculations
+ *
+ * @author sbabu
+ * Original reference https://ideone.com/2IUfcd
+ *
+ */
 class Util {
-
     private static Object mock = new Object();
 
     static List<List<String>> findAllShortestPaths(DigiEvolutionGraph graph, String from, String to) {
